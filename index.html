@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="#" method="post">
+            <span>Имя</span>
+            <input type="text" placeholder="Имя" class="data name" name="name">
+            <span>Фамилия</span>
+            <input type="text" placeholder="Фамилия" class="data last_name" name="last__name">
+            <span class="cost">Цена товара 499.99$</span>
+            <div class="block_text"></div>
+            <span class="quantity"></span>
+            <span>Дата первой покупки</span>
+            <input type="date" class="data" name="first_date">
+            <span>Дата следующей покупки</span>
+            <input type="date" class="data" name="next_date">
+            <span>Способ оплаты</span>
+            <select class="data" name='payment'>
+                <option value="Visa">Visa</option>
+                <option value="MasterCard">MasterCard</option>
+                <option value="PayPal">PayPal</option>
+                <option value="Qiwi">Qiwi</option>
+                <option value="Webmoney">Webmoney</option>
+            </select>
+            <input type="button" value="Добавить в корзину" class="btn_buy">
+        </form>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
